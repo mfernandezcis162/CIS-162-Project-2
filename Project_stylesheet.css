@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+
+body > header > img {
+    display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-color: rgb(226, 86, 43);
+}
+
+body > nav > ul > li {
+    display:inline-block;
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+   }
+
+
+   
+
+Section > article > h1 {
+    font-size: 4em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: coral;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.596);
+}
+
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    background-color: rgb(240, 120, 73);
+    }
+
+a {
+    color: rgb(252, 239, 235);
+    text-decoration: none;
+        
+}
+
+html {
+    background-image: url(Cargo_ship2.jpg);
+}
+
+body {
+    background-color: rgba(42, 142, 167, 0.918);
+    margin:3%;
+    }
+
+
+body > section > article > p {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    text-align: center;
+}
+
+
+
+/* Qualify Page */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+div.qualify > h1 {
+    text-align: center
+}
+
+div.qualify > section > article > p {
+    
+    clear: right;
+    float:none;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7em ;
+    
+}
+
+
+form {
+    
+    font-size:1.7em;
+    color: coral;
+    font-family:fantasy;
+    float:left;
+    border-style:solid;
+    background-color:rgba(0, 0, 139, 0.24);
+   
+    }
+input {
+    background-color:lightcoral ;
+    color:whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+ /*Destinations Page*/
+
+ .card-body {
+ background-color: coral;
+ color: whitesmoke;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ border-style: groove;
+ border-color:rgba(255, 255, 0, 0.425);
+ }
+
+ div.gallery {
+   border: 3px solid whitesmoke;
+ }
+ 
+ div.gallery:hover {
+   border: 2px solid coral;
+ }
+ 
+ div.gallery img {
+   width: 100%;
+   height: auto;
+   
+ }
+ 
+ div.desc {
+   padding: 15px;
+   text-align: center;
+   background-color: coral;
+   color: whitesmoke;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+ }
+ 
+ * {
+   box-sizing: border-box;
+ }
+ 
+ .destinations {
+   
+   width: 75%;
+   border-style: groove;
+   border-color: darkblue;
+ }
+ 
+ @media only screen and (max-width: 700px) {
+   .destinations {
+     width: 49.99999%;
+     margin: 6px 0;
+
+   }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+   .destinations {
+     width: 100%;
+   }
+ }
+ 
+ .clearfix:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+
+.description {
+    color: whitesmoke;
+    float: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+}
+
+/*Jobs*/
+
+.accordion {
+ font-size: 0.9em;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.accordion-body {
+  background-color:  rgba(42, 142, 167, 0.918);
+  color: whitesmoke;
+}
+
+.accordion-button {
+  background-color:coral;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
